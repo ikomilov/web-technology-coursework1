@@ -1,0 +1,237 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Website for training</title>
+    <link rel="stylesheet" href="retry.css" />
+  </head>
+  <body>
+    <header class="header">
+      <!-- ///////////////////////// Navigation//////////////////////// -->
+
+      <nav class="nav">
+        <img src="logo.png" alt="apple logo" class="nav__logo" id="logo" />
+        <ul class="nav__links">
+          <li class="nav__item">
+            <a class="nav__link" href="#section--1">Home</a>
+          </li>
+          <li class="nav__item">
+            <a class="nav__link" href="#section--2">Schedule</a>
+          </li>
+          <li class="nav__item">
+            <a class="nav__link" href="#section--3">Order a Uniform</a>
+          </li>
+          <li class="nav__item">
+            <a class="nav__link nav__link--btn btn--show-modal" href="#"
+              >Open account</a
+            >
+          </li>
+        </ul>
+      </nav>
+
+      <!-- ///////////////////////// Primary Heading//////////////////////// -->
+
+      <div class="text-box">
+        <h1 class="primary-heading">
+          <span class="primary-heading-main">Progress</span>
+          <span class="primary-heading-sub"
+            >takes place Outside your comfort zone
+          </span>
+        </h1>
+        <a href="#footer" class="btn btn-white btn-animated"
+          >Learn more &DownArrow;</a
+        >
+      </div>
+    </header>
+
+    <section id="section--2" class="section-2" href="#">
+      <h2 class="modal-2">
+        Do you want to know
+        <span class="highlight">what time</span>
+        is it<br />
+        <span class="highlight">now</span>
+      </h2>
+      <div class="clock">
+        <div class="hand hour" data-hour-hand=""></div>
+        <div class="hand minute" data-minute-hand></div>
+        <div class="hand second" data-second-hand></div>
+        <div class="number number1">1</div>
+        <div class="number number2">2</div>
+        <div class="number number3">3</div>
+        <div class="number number4">4</div>
+        <div class="number number5">5</div>
+        <div class="number number6">6</div>
+        <div class="number number7">7</div>
+        <div class="number number8">8</div>
+        <div class="number number9">9</div>
+        <div class="number number10">10</div>
+        <div class="number number11">11</div>
+        <div class="number number12">12</div>
+      </div>
+
+      <!-- /////////////////////// Save input///////////////////// -->
+      <div class="input-section">
+        <h3 class="highlight">
+          Here you can save your dialy training activities and <br />
+          plan your day accordingly.
+        </h3>
+        <input type="text" id="input-el" />
+        <button class="btn" id="input-btn">Save</button>
+        <ul id="ul-el"></ul>
+      </div>
+    </section>
+
+    <!-- ///////////////////////// OPEN AN ACCOUNT//////////////////// -->
+
+    <div class="modal hidden">
+      <button class="btn--close-modal">&times;</button>
+      <h2 class="modal__header">
+        Open your bank account <br />
+        in just <span class="highlight">5 minutes</span>
+      </h2>
+      <form class="modal__form">
+        <label>First Name</label>
+        <input type="text" /><br />
+        <label> Last Name</label>
+        <input type="text" /><br />
+        <label>Email Address</label>
+        <input type="email" /><br />
+        <button class="btn btn-account">Next step &rarr;</button>
+      </form>
+    </div>
+    <div class="overlay hidden"></div>
+
+    <!-- ////////////////////////// HOw it wirks/////////////////// -->
+
+    <section id="section--3" class="section-steps">
+      <div class="third-section">
+        <h2>You can order training _ uniforms in this section</h2>
+      </div>
+      <div>
+        <div class="step-box">
+          <img
+            class="nav__link nav__link--btn btn--show-modal"
+            href="#"
+            src="img3.jfif"
+            alt=""
+            class="uniform"
+          />
+          <img
+            class="nav__link nav__link--btn btn--show-modal"
+            href="#"
+            src="img4.jfif"
+            alt=""
+            class="uniform"
+          />
+          <img
+            class="nav__link nav__link--btn btn--show-modal"
+            href="#"
+            src="img5.webp"
+            alt=""
+            class="uniform"
+          />
+          <img
+            class="nav__link nav__link--btn btn--show-modal"
+            href="#"
+            src="img6.jfif"
+            alt=""
+            class="uniform"
+          />
+          <img
+            class="nav__link nav__link--btn btn--show-modal"
+            href="#"
+            src="img7.jfif"
+            alt=""
+            class="uniform"
+          />
+        </div>
+
+        <div class="step-box">
+          <div class="works-step">
+            <div>1</div>
+            <p>
+              Choose the uniform that you like and buy them at reasonable price!
+            </p>
+          </div>
+          <div class="works-step">
+            <div>2</div>
+            <p>
+              Order them today and you will get a 15% of discount and free
+              shipping
+            </p>
+          </div>
+          <div class="works-step">
+            <div>3</div>
+            <p>
+              All uniforms were made in well-known brands and the quality of
+              them are really nice
+            </p>
+          </div>
+
+          <a href="" class="btn-app"><img src="download-app.svg" alt="" /></a>
+          <a href="" class="btn-app"
+            ><img src="download-app-android.png" alt=""
+          /></a>
+        </div>
+      </div>
+    </section>
+
+    <section id="section--4" class="video-section">
+      <h2>Workout videos for free</h2>
+      <div class="video-tutorial">
+        <ul class="video-ul">
+          <li>
+            <img class="img-video" src="img2.jpg" alt="" /><br />
+            <a href="https://www.youtube.com/watch?v=Tz9d7By2ytQ">Full body</a>
+          </li>
+          <li>
+            <img class="img-video" src="img9.jpg" alt="" /><br />
+            <a href="https://www.youtube.com/watch?v=Tz9d7By2ytQ"
+              >Workout for chest</a
+            >
+          </li>
+          <li>
+            <img class="img-video" src="img10.jfif" alt="" /><br />
+            <a href="https://www.youtube.com/watch?v=mUbnnR9ClJk"
+              >Workout for shoulders</a
+            >
+          </li>
+          <li>
+            <img class="img-video" src="img11.jpg" alt="" /><br />
+            <a href="https://www.youtube.com/watch?v=S5kOK3bxfro"
+              >Workout for arms</a
+            >
+          </li>
+          <li>
+            <img class="img-video" src="img12.jpg" alt="" /><br />
+            <a href="https://www.youtube.com/watch?v=LaHSbj5ca0A"
+              >Workout for pack Abs</a
+            >
+          </li>
+          <li>
+            <img class="img-video" src="img13.jfif" alt="" /><br />
+            <a href="https://www.youtube.com/watch?v=Nr0voKyfiiE"
+              >Workout for legs</a
+            >
+          </li>
+        </ul>
+      </div>
+    </section>
+
+    <footer id="footer">
+      <ul class="footer-nav">
+        <li><a href="#">About us</a></li>
+        <li><a href="#">Blog</a></li>
+        <li><a href="#">Press</a></li>
+        <li><a href="#">iOS App</a></li>
+        <li><a href="#">Android App</a></li>
+      </ul>
+      <a class="btn-readMe" href="readMe.html " target="_blank">Read Me</a>
+      <img class="footer-logo" src="logo.png" alt="" />
+
+      <div>
+        <p>This is a footer of the website made by Komilov Ismoiljon in 2021</p>
+      </div>
+    </footer>
+    <script src="coursework.js"></script>
+  </body>
+</html>
